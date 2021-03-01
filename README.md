@@ -8,7 +8,7 @@ An existing school district analysis had completed and handed into Maria, a chie
 * How is district Summary affected: 
   * The number of schools, students and budgets are the same.
   * Average Math score updates from 79 to 78.9 
-  * Average Reading score stays the same as 81.9
+  * Average Reading score is the same as 81.9
   * % Passing Math updates from 75 to 74.8
   * % Passing Reading updates from 85.8 to 85.7
   * % Overall Passing from 65.2 to 64.9
@@ -21,20 +21,38 @@ An existing school district analysis had completed and handed into Maria, a chie
 * How is school summary affected: 
   * Except Thomas High School, the rest school's information are the same as existing anlysis.
   * Thomas High School's school type, total students, total school budget are the same as existing anlysis.
-  * Thomas High School's Average Math score stays the same as 83.4
+  * Thomas High School's Average Math score is the same as 83.4
   * Thomas High School's Average Reading score updates from 83.8 to 83.9
   * Thomas High School's % Passing Math updates from 93.3 to 93.2
   * Thomas High School's % Passing Reading updates from 97.3 to 97
   * Thomas High School's % Overall Passing from 90.9 to 90.6
   * Existing School Summary
-
+![Existing_school_summary](./Resources/existing_thomsa_high_with_9th.png)
   * Update School Summary
+![Updated_school_summary](./Resources/updated_thomsa_high_without_9th_count.png)
 
+* How replace 9th grader's affect Thomas High School relative to the other schools:
+  * Since count() function will count NaN in, if we don't remove 9th grader's count number from total student counts, we will get wrong average scroe and passing percentage.This is the reason why in step1 and step 2 we caculate new_student_count by deducting Thomas High School 9th grader count from student_count.
+  * While in step 9 to 11 calculating Thomas High School average and passing percentage, we get the number of 10th to 12th graders counts only in step 5 in order to get correct base and denominator for step 6 to step 8.
 
-*How replace 9th grader's affect Thomas High School relative to the other schools:
-
-*How does replacing the ninth-grade scores affect the following:
-
+* How does replacing the ninth-grade scores affect the following:
+  * Math and reading scores by grade: Except 9th grade in Thomas High School becomes NaN, the rest grades are the same.
+  * Scores by school spending: Since Thomas High School spending range (per student) is $638, the average scores and passing percentages are affect in the range of $630-644.
+    * Average Math score updates from 78.52 to 78.5
+    * Average Reading score updates from 81.62 to 81.63
+    * % Passing Math updates from 73.48 to 73.46
+    * % Passing Reading updates from 84.39 to 84.32
+    * % Overall Passing from 62.86 to 62.78
+    * Existing Scores by school spending
+    * Update Scores by school spending
+  * Scores by school size: Since Thomas High School size is 1635, the average scores and passing percentages are affect in the Medium (1000-2000).
+    * Average Math score updates from 83.4 to 78.5
+    * Average Reading score updates from 83.9 to 81.63
+    * % Passing Math updates from 94 to 73.46
+    * % Passing Reading updates from 97 to 84.32
+    * % Overall Passing from 91 to 62.78
+    * Existing Scores by school spending
+    * Update Scores by school spending
 
 ##Summary
 In school disctrict analysis, the number of schools, students and budgets are the same in district summary as existing anlysis. However, average math scores, % Passing Math, % Passing Reading, and % Overall Passing have been slightly affacted after reading and math scroes for the ninth grade at Thomas High School have been replaced with NaNs.  
