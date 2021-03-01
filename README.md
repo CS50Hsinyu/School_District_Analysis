@@ -12,7 +12,7 @@ An existing school district analysis had completed and handed into Maria, a chie
   * % Passing Reading updates from 85.8 to 85.7
   * % Overall Passing from 65.2 to 64.9
   * Update district summary
-
+![Updated_district_summary](./Resources/updated_district.png)
 
 *School Summary: The rest school's information are the same as existing anlysis except Thomas High School. Thomas High School's school type, total students, total school budget of  are the same. The following are Thomas High School's score and passing percentage comparison between existing and updated analysis.
   * Average Math score stays the same as 83.4
