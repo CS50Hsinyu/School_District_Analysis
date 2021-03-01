@@ -5,7 +5,7 @@ PyCitySchoools with Pandas
 An existing school district analysis had completed and handed into Maria, a chief data scientist for a city school disctrict. However, Maria asked us to refactor the existing analysis to provide an updated one by replacing the math and reading scroes from 9th grade in Thomas High School with NaN while keeping the rest of the data intact. The update school district analysis shall reflect different average and passing percetage while excluding Thomas High School's 9th grade score. 
 
 ## Result
-* How is district Summary affected: 
+1 How is district Summary affected: 
   * The number of schools, students and budgets are the same.
   * Average Math score updates from 79 to 78.9 
   * Average Reading score is the same as 81.9
@@ -15,12 +15,12 @@ An existing school district analysis had completed and handed into Maria, a chie
   * Existing district summary
 ![Existing_district_summary](./Resources/existing_district.png)
 
-  * Update district summary
+  - Update district summary
 ![Updated_district_summary](./Resources/updated_district.png)
 
  
-* How is school summary affected: 
-  * Except Thomas High School, the rest school's information are the same as existing anlysis.
+2 How is school summary affected: 
+   Except Thomas High School, the rest school's information are the same as existing anlysis.
   * Thomas High School's school type, total students, total school budget are the same as existing anlysis.
   * Thomas High School's Average Math score updates from 83.4 to 83.3
   * Thomas High School's Average Reading score updates from 83.8 to 83.9
@@ -34,27 +34,27 @@ An existing school district analysis had completed and handed into Maria, a chie
 ![Updated_school_summary](./Resources/updated_thomsa_high_without_9th_count.png)
 
 
-* How replace 9th grader's affect Thomas High School relative to the other schools:
+3 How replace 9th grader's affect Thomas High School relative to the other schools:
   * Since count() function will count NaN in, if we don't remove 9th grader's count number from total student counts, we will get wrong average scroe and passing percentage.This is the reason why in step1 and step 2 we caculate new_student_count by deducting Thomas High School 9th grader count from student_count.
   * While in step 9 to 11 calculating Thomas High School average and passing percentage, we get the number of 10th to 12th graders counts only in step 5 in order to get correct base and denominator for step 6 to step 8.
 
-* How does replacing the ninth-grade scores affect the following:
+4 How does replacing the ninth-grade scores affect the following:
   * Math and reading scores by grade: Except 9th grade in Thomas High School becomes NaN, the rest grades are the same.
     * Existing Math Score
  
- ![Existing_Math_Score](./Resources/existing_by_grade_math.png)
-    
+![Existing_Math_Score](./Resources/existing_by_grade_math.png) 
+ 
     * Existing Reading Score
- 
- ![Existing_Reading_Score](./Resources/existing_by_grade_reading.png)
- 
+
+![Existing_Reading_Score](./Resources/existing_by_grade_reading.png)
+
     * Update Math Score
- 
- ![Updated_Math_Score](./Resources/updated_by_grade_math.png)
- 
+
+![Updated_Math_Score](./Resources/updated_by_grade_math.png)
+
     * Update Reading Score
  
- ![Updated_Reading_Score](./Resources/updated_by_grade_reading.png)
+![Updated_Reading_Score](./Resources/updated_by_grade_reading.png)
 
   * Scores by school spending: Since Thomas High School spending range (per student) is $638, the average scores and passing percentages are affect in the range of $630-644.
     * Average Math score updates from 78.52 to 78.5
