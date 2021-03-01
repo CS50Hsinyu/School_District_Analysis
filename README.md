@@ -40,27 +40,18 @@ An existing school district analysis had completed and handed into Maria, a chie
 
 * How does replacing the ninth-grade scores affect the following:
   * Math and reading scores by grade: Except 9th grade in Thomas High School becomes NaN, the rest grades are the same.
-    * Existing Math Score
+     * Existing Math Score
  ![Existing_Math_Score](./Resources/existing_by_grade_math.png)
- 
- 
- 
-    * Existing Reading Score
+     
+     * Existing Reading Score
  ![Existing_Reading_Score](./Resources/existing_by_grade_reading.png)
  
- 
- 
-    * Update Math Score
+     * Update Math Score
  ![Updated_Math_Score](./Resources/updated_by_grade_math.png)
  
- 
- 
-    * Update Reading Score
+     * Update Reading Score
  ![Updated_Reading_Score](./Resources/updated_by_grade_reading.png)
- 
- 
- 
- 
+
   * Scores by school spending: Since Thomas High School spending range (per student) is $638, the average scores and passing percentages are affect in the range of $630-644.
     * Average Math score updates from 78.52 to 78.5
     * Average Reading score updates from 81.62 to 81.63
@@ -70,14 +61,9 @@ An existing school district analysis had completed and handed into Maria, a chie
     * Existing Scores by school spending
 ![Existing_by_Spending](./Resources/existing_by_school_spending.png)
 
-
- 
     * Update Scores by school spending
 ![Updated_by_Spending](./Resources/updated_by_school_spending.png)
 
-
-
- 
   * Scores by school size: Although Thomas High School size is 1635, the average scores and passing percentages are not affect in the Medium (1000-2000).
     * Average Math score is the same as 83.4
     * Average Reading score is the same as 83.9
@@ -87,12 +73,8 @@ An existing school district analysis had completed and handed into Maria, a chie
     * Existing Scores by school size
 ![Existing_by_Size](./Resources/existing_by_school_size.png)
 
-
-
     * Update Scores by school size
 ![Updated_by_Size](./Resources/updated_by_school_size.png)
-
-
 
   * Scores by school type: Although Thomas High School tpye is Charter, the average scores and passing percentages are not affect in Charter.
     * Average Math score is the same as 83.5
@@ -103,12 +85,8 @@ An existing school district analysis had completed and handed into Maria, a chie
     * Existing Scores by school type
 ![Existing_by_Type](./Resources/existing_by_school_type.png)
 
-
-
     * Update Scores by school type
 ![Updated_by_Type](./Resources/updated_by_school_type.png)
-
-
 
 ##Summary
 In school disctrict analysis, the number of schools, students and budgets are the same in district summary as existing anlysis. However, average math scores, % Passing Math, % Passing Reading, and % Overall Passing have been slightly affacted after reading and math scroes for the ninth grade at Thomas High School have been replaced with NaNs.  
