@@ -5,7 +5,7 @@ PyCitySchoools with Pandas
 An existing school district analysis had completed and handed into Maria, a chief data scientist for a city school disctrict. However, Maria asked us to refactor the existing analysis to provide an updated one by replacing the math and reading scroes from 9th grade in Thomas High School with NaN while keeping the rest of the data intact. The update school district analysis shall reflect different average and passing percetage while excluding Thomas High School's 9th grade score. 
 
 ## Result
-1. How is district Summary affected: 
+1. How is district summary affected: 
    * The number of schools, students and budgets are the same.
    * Average Math score updates from 79 to 78.9 
    * Average Reading score is the same as 81.9
@@ -97,5 +97,7 @@ An existing school district analysis had completed and handed into Maria, a chie
  
       ![Updated_by_Type](./Resources/updated_by_school_type.png)
 
-##Summary
-In school disctrict analysis, the number of schools, students and budgets are the same in district summary as existing anlysis. However, average math scores, % Passing Math, % Passing Reading, and % Overall Passing have been slightly affacted after reading and math scroes for the ninth grade at Thomas High School have been replaced with NaNs.  
+## Summary
+There are in the number of schools.  after reading and math scroes for the ninth grade at Thomas High School have been replaced with NaNs.  
+  1. The average math scores, % Passing Math, % Passing Reading, and % Overall Passing have been affacted in district summary
+  2. 
