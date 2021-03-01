@@ -98,6 +98,8 @@ An existing school district analysis had completed and handed into Maria, a chie
       ![Updated_by_Type](./Resources/updated_by_school_type.png)
 
 ## Summary
-There are in the number of schools.  after reading and math scroes for the ninth grade at Thomas High School have been replaced with NaNs.  
-  1. The average math scores, % Passing Math, % Passing Reading, and % Overall Passing have been affacted in district summary
-  2. 
+After reading and math scroes for the ninth grade at Thomas High School have been replaced with NaNs, there are following major changes.  
+  1. The Average Math Scores, % Passing Math, % passing Reading, and % Overall Passing have been affacted in district summary.
+  2. The Average Math Scores, Average Reading Scores, % Passing Math, % passing Reading, and % Overall Passing have been affacted in Thomas High School's summary.
+  3. The math and reading score in 9th grade in Thomas High School has been affacted, which turned into NaN.
+  4. The Average Math Scores, Average Reading Scores, % Passing Math, % passing Reading, and % Overall Passing scores have been affacted in scores by school spending.
