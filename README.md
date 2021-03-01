@@ -37,6 +37,11 @@ An existing school district analysis had completed and handed into Maria, a chie
 
 * How does replacing the ninth-grade scores affect the following:
   * Math and reading scores by grade: Except 9th grade in Thomas High School becomes NaN, the rest grades are the same.
+    * Existing Math Score
+    * Existing Reading Score
+    * Update Math Score
+    * Update Reading Score
+
   * Scores by school spending: Since Thomas High School spending range (per student) is $638, the average scores and passing percentages are affect in the range of $630-644.
     * Average Math score updates from 78.52 to 78.5
     * Average Reading score updates from 81.62 to 81.63
@@ -45,14 +50,23 @@ An existing school district analysis had completed and handed into Maria, a chie
     * % Overall Passing from 62.86 to 62.78
     * Existing Scores by school spending
     * Update Scores by school spending
-  * Scores by school size: Since Thomas High School size is 1635, the average scores and passing percentages are affect in the Medium (1000-2000).
-    * Average Math score updates from 83.4 to 78.5
-    * Average Reading score updates from 83.9 to 81.63
-    * % Passing Math updates from 94 to 73.46
-    * % Passing Reading updates from 97 to 84.32
-    * % Overall Passing from 91 to 62.78
-    * Existing Scores by school spending
-    * Update Scores by school spending
+ 
+  * Scores by school size: Although Thomas High School size is 1635, the average scores and passing percentages are not affect in the Medium (1000-2000).
+    * Average Math score is the same as 83.4
+    * Average Reading score is the same as 83.9
+    * % Passing Math is the same as 94
+    * % Passing Reading is the same as 97
+    * % Overall Passing is the same as 91
+    * Existing Scores by school size
+    * Update Scores by school size
 
+  * Scores by school type: Although Thomas High School tpye is Charter, the average scores and passing percentages are not affect in Charter.
+    * Average Math score is the same as 83.5
+    * Average Reading score is the same as 83.9
+    * % Passing Math is the same as 94
+    * % Passing Reading is the same as 97
+    * % Overall Passing is the same as 90
+    * Existing Scores by school type
+    * Update Scores by school type
 ##Summary
 In school disctrict analysis, the number of schools, students and budgets are the same in district summary as existing anlysis. However, average math scores, % Passing Math, % Passing Reading, and % Overall Passing have been slightly affacted after reading and math scroes for the ninth grade at Thomas High School have been replaced with NaNs.  
