@@ -41,15 +41,19 @@ An existing school district analysis had completed and handed into Maria, a chie
 4. How does replacing the ninth-grade scores affect the following:
    * Math and reading scores by grade: Except 9th grade in Thomas High School becomes NaN, the rest grades are the same.
      - Existing Math Score
+
       ![Existing_Math_Score](./Resources/existing_by_grade_math.png) 
 
      - Existing Reading Score
+ 
       ![Existing_Reading_Score](./Resources/existing_by_grade_reading.png)
       
      - Update Math Score
+
       ![Updated_Math_Score](./Resources/updated_by_grade_math.png)
       
      - Update Reading Score
+  
       ![Updated_Reading_Score](./Resources/updated_by_grade_reading.png)
  
    * Scores by school spending: Since Thomas High School spending range (per student) is $638, the average scores and passing percentages are affect in the range of $630-644.
